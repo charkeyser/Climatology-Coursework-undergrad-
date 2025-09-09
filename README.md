@@ -17,9 +17,9 @@ Jupyter Notebook/Lab
 
 # Repo structure-
 /assignments  
-  notebooks for assignments  
+&nbsp;&nbsp;&nbsp;&nbsp;notebooks for assignments  
 /src  
-  functions (pressure, etc)  
+&nbsp;&nbsp;&nbsp;&nbsp;functions (pressure, etc)  
 README.md  
 .gitignore
 
