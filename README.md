@@ -3,6 +3,7 @@ The purpose of this repo is to hold code for undergraduate coursework in climato
 
 # setup/use-
 "git clone https://github.com/charkeyser/Climatology-Coursework-undergrad-.git" OR "git remote add origin <previous URL>"
+
 "cd Climatology-Coursework-undergrad-"
 
 if applicable:
@@ -12,15 +13,22 @@ All Python should be runnable in Jupyter Notebook without setting up an environm
 
 # requirements-
 Environment: CONDA (Anaconda)
+
 Python: 3 (ipykernel)
+
 Jupyter Notebook/Lab
 
 # Repo structure-
 /assignments
+
   notebooks for assignments
+  
 /src
+
   functions (pressure, etc)
+  
 README.md
+
 .gitignore
 
 # license-
@@ -31,6 +39,7 @@ NOT for use in training Artificial Intelligence (AI) models, including, but not 
 
 # Authorship-
 Keyser H, Charles
+
 charkeyser@gmail.com
 
 
