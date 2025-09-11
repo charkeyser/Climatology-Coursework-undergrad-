@@ -1,5 +1,5 @@
 # Climatology-Coursework-undergrad-
-The purpose of this repo is to hold code for undergraduate coursework in climatology for grading and reproduction purposes (mostly Python, probably). Most Python will be generated using Jupyter Notebook (.ipynb), and R will be from RStudio.
+The purpose of this repo is to hold code for undergraduate coursework in climatology for grading and reproduction purposes (mostly Python, probably). Most Python will be generated using Jupyter Notebook (.ipynb), and any R will be from RStudio.
 
 # setup/use-
 "git clone https://github.com/charkeyser/Climatology-Coursework-undergrad-.git" OR "git remote add origin 'previous URL'"  
@@ -8,7 +8,7 @@ The purpose of this repo is to hold code for undergraduate coursework in climato
 if applicable:  
 "conda env create -f <environment-name>.yml && conda activate <env-name>"
 
-All Python should be runnable in Jupyter Notebook without setting up an environment
+All Python should be runnable in Jupyter Notebook without setting up an external environment
 
 # requirements-
 Environment: CONDA (Anaconda)  
@@ -24,10 +24,11 @@ README.md
 .gitignore
 
 # license-
-"all rights reserved"
+GNU GPL-3.0-or-later
 
+See "LICENSE" in repository root for more information
 # notes-
-NOT for use in training Artificial Intelligence (AI) models, including, but not limited to, large learning models (LLM), Generative Adversarial Networks (GAN), Deep Learning Models (DLM), Unsupervised Learning, etc., without explicit permission. Please see authorship below for contact info.
+none
 
 # Authorship-
 Keyser H, Charles  
