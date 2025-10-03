@@ -77,7 +77,7 @@ def teq(alpha, Q, tau):
     
 def tstep_forward(T, C, Q, alpha, tau):
     dt = 60.*60.*24.*365.
-    return T + dt / C * (ASR(Q, alpha) - olr(T, tau))
+    return T + dt / C * (asr(Q, alpha) - olr(T, tau))
 
 
 
