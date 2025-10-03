@@ -56,8 +56,27 @@ def pressure(T, Z, H, opt_unit):
         return print(f"{P} Paschals")
     else:
         return P
-
 """
 should always return H or P as single float or 1-D array if multiple values are passed per variable (E.G. multiple Z values)
 """
+def T(data):
+    return math.sqrt(math.sqrt(data))
+
+def sigmat4(T, Sigma):
+    return Sigma*T**4
+
+def asr(Q, alpha):
+    return (1 - alpha) * Q
+
+def olr(T, tau):
+    sigma = 5.67*10**-8
+    return tau*sigma*T**4
+
+def teq(alpha, Q, tau):
+    return ((1 - alpha) * Q / (tau*sigma))**(1/4)
+    
+def tstep_forward(T, C, Q, alpha, tau):
+    return T + dt / C * (ASR(Q, alpha) - olr(T, tau))
+
+
 
